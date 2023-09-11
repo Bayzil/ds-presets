@@ -17,15 +17,15 @@
     "effectModule": false
   },
   "frequency": {
-    "freqData": "custom",
+    "freqData": "datasonifyer",
     "freqDataSelectIndex": 0,
     "freqScale": "off",
     "freqScaleSelectIndex": 0,
-    "freqMin": null,
-    "freqMax": null,
-    "freqMinData": null,
-    "freqMaxData": null,
-    "freqCustom": 440,
+    "freqMin": 110,
+    "freqMax": 587,
+    "freqMinData": 110,
+    "freqMaxData": 587.33,
+    "freqCustom": null,
     "freqDataValues": [
       146.83,
       110,
@@ -41,18 +41,18 @@
       293.66
     ],
     "freqDataValuesNormalised": [
-      146.83,
+      146.80453774118536,
       110,
-      349.23,
+      349.0646093897304,
       110,
-      329.23,
-      440,
-      196,
-      246.94,
-      174.61,
-      587.33,
-      164.81,
-      293.66
+      329.0784363019295,
+      439.7718559487147,
+      195.94054427754384,
+      246.8453271321727,
+      174.5653321601408,
+      587,
+      164.77210734711835,
+      293.5330274652756
     ]
   },
   "envelope": {
@@ -248,5 +248,54 @@
       0.5
     ]
   },
-  "rawdata": []
+  "rawdata": [
+    {
+      "datasonifyer": 146.83,
+      "row\r": 1
+    },
+    {
+      "datasonifyer": 110,
+      "row\r": 2
+    },
+    {
+      "datasonifyer": 349.23,
+      "row\r": 3
+    },
+    {
+      "datasonifyer": 110,
+      "row\r": 4
+    },
+    {
+      "datasonifyer": 329.23,
+      "row\r": 5
+    },
+    {
+      "datasonifyer": 440,
+      "row\r": 6
+    },
+    {
+      "datasonifyer": 196,
+      "row\r": 7
+    },
+    {
+      "datasonifyer": 246.94,
+      "row\r": 8
+    },
+    {
+      "datasonifyer": 174.61,
+      "row\r": 9
+    },
+    {
+      "datasonifyer": 587.33,
+      "row\r": 10
+    },
+    {
+      "datasonifyer": 164.81,
+      "row\r": 11
+    },
+    {
+      "datasonifyer": 293.66,
+      "row\r": 12
+    }
+  ]
 }
